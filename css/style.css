@@ -1,0 +1,162 @@
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.header {
+  width: 100%; }
+
+.about {
+  width: 100%; }
+
+.content {
+  width: 100%; }
+
+.footer {
+  width: 100%; }
+
+#apple {
+  background-image: url(images/apple.jpg); }
+
+#banana {
+  background-image: url(images/banana.jpg); }
+
+#cat {
+  background-image: url(images/cat.jpg); }
+
+#dog {
+  background-image: url(images/dog.jpg); }
+
+#elephant {
+  background-image: url(images/elephant.jpg); }
+
+a {
+  color: #159; }
+  a:hover {
+    color: #eeaa66; }
+
+.box-1 {
+  width: 19px;
+  height: 33.33333%;
+  background-color: #95ff00;
+  float: left; }
+
+.box-2 {
+  width: 42px;
+  height: 33.33333%;
+  background-color: #00ff2b;
+  float: left; }
+
+.box-3 {
+  width: 9px;
+  height: 33.33333%;
+  background-color: #00ffea;
+  float: left; }
+
+.box-4 {
+  width: 7px;
+  height: 33.33333%;
+  background-color: #0055ff;
+  float: left; }
+
+.box-5 {
+  width: 1px;
+  height: 33.33333%;
+  background-color: #6a00ff;
+  float: left; }
+
+.box-6 {
+  width: 34px;
+  height: 33.33333%;
+  background-color: #ff00d5;
+  float: left; }
+
+.box-7 {
+  width: 22px;
+  height: 33.33333%;
+  background-color: #ff0015;
+  float: left; }
+
+.box-8 {
+  width: 3px;
+  height: 33.33333%;
+  background-color: #ffaa00;
+  float: left; }
+
+.box-9 {
+  width: 78px;
+  height: 33.33333%;
+  background-color: #95ff00;
+  float: left; }
+
+.box-10 {
+  width: 7px;
+  height: 33.33333%;
+  background-color: #00ff2b;
+  float: left; }
+
+.box-11 {
+  width: 62px;
+  height: 33.33333%;
+  background-color: #00ffea;
+  float: left; }
+
+.box-12 {
+  width: 68px;
+  height: 33.33333%;
+  background-color: #0055ff;
+  float: left; }
+
+.a-box {
+  width: 4 px;
+  height: 5 px;
+  border: 8 px solid #ccc; }
+
+.b-box {
+  width: 4600% px; }
+
+body {
+  color: #0000ff; }
+
+.bg--red {
+  background-color: #ff0000; }
+
+.bg--blue {
+  background-color: #0000ff; }
+
+.bg--yellow {
+  background-color: #ffcc00; }
+
+.bg--gray {
+  background-color: #e1e1e1; }

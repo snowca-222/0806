@@ -1,0 +1,44 @@
+@charset "UTF-8"
+@import "btn"
+@import "color"
+@import "grid"
+
+$blocks: header, about, content, footer
+
+@each $block in $blocks
+    .#{$block}
+        width: 100%
+
+$img-items: apple, banana, cat ,dog ,elephant
+@each $img in $img-items
+    ##{$img}
+        background-image: url(images/#{$img}.jpg)
+
+$main: #159
+a  
+    color: $main
+    &:hover
+        color: invert($main)
+        // color: darken(#159, 30) 顏色變暗30%
+        // color: rgba(#159, .5)
+
+@for $j from 1 through 12
+    .box-#{$j}
+        width: random(100) * 1px
+        height: 100% / 3 * 1
+        background-color: adjust-hue(#fa0,$j * 45) 
+        float: left
+.a-box
+    width: round(4.2)px
+    height: floor(5.9)px
+    border: ceil(7.6) px solid #ccc
+.b-box
+    width: percentage( random(20) + random(40) ) px
+
+$colors: (red: $red,blue: $blue,yellow: $yellow,gray: $gray)
+body
+    color: map-get($colors, blue)
+
+@each $name, $color in $colors
+    .bg--#{$name}
+        background-color: $color

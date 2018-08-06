@@ -1,0 +1,18 @@
+@import "color";
+$colors:(
+    red: $red,
+    blue: $blue,
+    yellow: $yellow,
+    gray: $gray,
+    dark: $dark,
+    light: $light);
+
+body{
+    color: map-get($colors, yellow);
+}
+
+@each $name, $color in $colors{
+    .bg--#{name}{
+        background-color: $color;
+    }
+}
